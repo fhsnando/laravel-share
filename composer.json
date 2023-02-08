@@ -1,19 +1,25 @@
 {
-    "name": "jorenvanhocht/laravel-share",
-    "description": "Optional package for Laravel to generate social share links.",
+    "name": "fhsnando/laravel-share",
+    "description": "Optional package for Laravel to generate social share links with new options.",
     "keywords": [
         "laravel",
         "share",
         "social links",
         "social share links"
     ],
-    "homepage": "https://github.com/jorenvh/laravel-share",
+    "homepage": "https://github.com/fhsnando/laravel-share",
     "license": "MIT",
     "authors": [
         {
             "name": "Joren Van Hocht",
             "email": "joren@codeswitch.be",
             "homepage": "https://codeswitch.be",
+            "role": "Developer"
+        },
+         {
+            "name": "Fernando Henrique Santos",
+            "email": "fhsnando@live.com",
+            "homepage": "",
             "role": "Developer"
         }
     ],
@@ -26,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jorenvh\\Share\\": "src"
+            "fhsnando\\Share\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jorenvh\\Share\\Test\\": "tests"
+            "fhsnando\\Share\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jorenvh\\Share\\Providers\\ShareServiceProvider"
+                "fhsnando\\Share\\Providers\\ShareServiceProvider"
             ],
             "aliases": {
-                "Share": "Jorenvh\\Share\\ShareFacade"
+                "Share": "fhsnando\\Share\\ShareFacade"
             }
         }
     }
