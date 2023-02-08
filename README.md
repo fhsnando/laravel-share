@@ -23,7 +23,7 @@ With Laravel Share you can generate these links in just seconds in a way tailore
 You can install the package via composer:
 
 ``` bash
-composer require jorenvanhocht/laravel-share
+composer require fhsnando/laravel-share
 ```
 
 
