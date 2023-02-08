@@ -32,7 +32,7 @@ If you don't use auto-discovery, add the ServiceProvider to the providers array 
 ```php
 // config/app.php
 'providers' => [
-    Jorenvh\Share\Providers\ShareServiceProvider::class,
+    fhsnando\Share\Providers\ShareServiceProvider::class,
 ];
 ```
 
@@ -41,14 +41,14 @@ And optionally add the facade in config/app.php
 ```php
 // config/app.php
 'aliases' => [
-    'Share' => Jorenvh\Share\ShareFacade::class,
+    'Share' => fhsnando\Share\ShareFacade::class,
 ];
 ```
 
 Publish the package config & resource files.
 
 ```bash
-php artisan vendor:publish --provider="Jorenvh\Share\Providers\ShareServiceProvider"
+php artisan vendor:publish --provider="fhsnando\Share\Providers\ShareServiceProvider"
 ```
 
 > You might need to republish the config file when updating to a newer version of Laravel Share
